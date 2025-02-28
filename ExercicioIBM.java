@@ -1,9 +1,10 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class ExercicioIBM {
     public static void main(String[] args) {
         int[] randomNumbers = new int[10];
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new java.util.Scanner(System.in);
         System.out.println("Digite 10 números:");
         for (int i = 0; i < randomNumbers.length; i++) {
             randomNumbers[i] = scanner.nextInt();
